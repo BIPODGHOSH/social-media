@@ -1,0 +1,58 @@
+:root {
+  --sidebar: 35%;
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+}
+.containt {
+  width: 100%;
+}
+
+.sidebar {
+  height: 100vh;
+  width: var(--sidebar);
+  max-width: 280px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar-component {
+  height: 100%;
+}
+
+.postFooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(210, 187, 187);
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.delete-post {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 50px 0;
+}
